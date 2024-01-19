@@ -50,4 +50,28 @@ public class WortEintrag {
         }
     }
 
+    public String getWort(){
+        return this.wort;
+        
+    }
+
+    public String getUrl(){
+        return this.url;
+
+    }
+
+    public void setUrl(String u) {
+        if(checkURL(u) == true) {
+            this.url = u;
+        }
+        else {
+            JOptionPane.showMessageDialog(null, "Die URL ist ungültig!", "ERROR", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+    @Override
+    public String toString(){
+        return this.wort+ " ; " + this.url;
+    }
+
 }
