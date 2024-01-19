@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e108e87b-7b1a-4b83-a5ab-5fb3c1e286a2" name="Changes" comment="" />
+    <list default="true" id="e108e87b-7b1a-4b83-a5ab-5fb3c1e286a2" name="Changes" comment="Start des Projekts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2bAUG09TV4zO6XnDpy2YxiLzrPK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,7 +41,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705657279771</updated>
+      <workItem from="1705657281593" duration="434000" />
     </task>
+    <task id="LOCAL-00001" summary="Start des Projekts">
+      <created>1705657520239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705657520239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start des Projekts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start des Projekts" />
   </component>
 </project>
