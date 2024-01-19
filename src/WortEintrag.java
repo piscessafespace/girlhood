@@ -1,3 +1,4 @@
+import java.util.*;
 import javax.swing.*;
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
@@ -10,11 +11,13 @@ import java.net.URL;
  */
 public class WortEintrag {
 
-    private  String wort;
+    // Instanzvariablen für das Wort und die URL
+    private String wort;
     private String url;
 
-    public static boolean checkURL(String u) throws NullPointerException{
-        if(u==null) {
+    // Statische Methode zum Überprüfen der Gültigkeit einer URL
+    public static boolean checkURL(String u) throws NullPointerException {
+        if(u == null) {
             throw new NullPointerException("URL hat nichts drinnen");
         }
         else {
@@ -29,39 +32,43 @@ public class WortEintrag {
             }
         }
     }
-    public WortEintrag(String w, String u){
-        if(checkURL(u)==true){
+
+    // Konstruktor für die Klasse
+    public WortEintrag(String w, String u) {
+        // Überprüft die Gültigkeit der URL und setzt sie nur, wenn gültig
+        if(checkURL(u)) {
             this.url = u;
         }
+        // Setzt das Wort unabhängig von der Gültigkeit der URL
         this.wort = w;
     }
 
+    // Methode zum Setzen des Worts mit Überprüfung der Mindestlänge
     public void setWort(String w) {
         try {
             if(wort.length() >= 2) {
                 this.wort = w;
-            }
-            else {
+            } else {
                 throw new IllegalArgumentException("Das Wort ist zu kurz!");
             }
-        }
-        catch(IllegalArgumentException ex) {
-            JOptionPane.showMessageDialog(null, ex.getMessage(),"ERROR", JOptionPane.ERROR_MESSAGE);
+        } catch(IllegalArgumentException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
         }
     }
 
-    public String getWort(){
+    // Methode zum Abrufen des Worts
+    public String getWort() {
         return this.wort;
-        
     }
 
-    public String getUrl(){
+    // Methode zum Abrufen der URL
+    public String getUrl() {
         return this.url;
-
     }
 
+    // Methode zum Setzen der URL mit Überprüfung der Gültigkeit
     public void setUrl(String u) {
-        if(checkURL(u) == true) {
+        if(checkURL(u)) {
             this.url = u;
         }
         else {
@@ -69,9 +76,9 @@ public class WortEintrag {
         }
     }
 
+    // Überschriebene toString-Methode für die Textdarstellung des Objekts
     @Override
-    public String toString(){
-        return this.wort+ " ; " + this.url;
+    public String toString() {
+        return this.wort + " ; " + this.url;
     }
-
 }
