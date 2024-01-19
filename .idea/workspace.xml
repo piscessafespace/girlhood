@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e108e87b-7b1a-4b83-a5ab-5fb3c1e286a2" name="Changes" comment="Auskommentieren von WortListe und KLEINE verfeinerungen am Code zum Verringern des Codes">
-      <change beforePath="$PROJECT_DIR$/src/WortEintrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WortEintrag.java" afterDir="false" />
+    <list default="true" id="e108e87b-7b1a-4b83-a5ab-5fb3c1e286a2" name="Changes" comment="Auskommentieren von WortEintrag und KLEINE verfeinerungen am Code zum Verringern des Codes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpeichernLadenTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpeichernLadenTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SuLInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SuLInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705657279771</updated>
-      <workItem from="1705657281593" duration="7898000" />
+      <workItem from="1705657281593" duration="11455000" />
     </task>
     <task id="LOCAL-00001" summary="Start des Projekts">
       <created>1705657520239</created>
@@ -130,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705694811743</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Auskommentieren von WortEintrag und KLEINE verfeinerungen am Code zum Verringern des Codes">
+      <created>1705695697525</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705695697525</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +180,7 @@
     <MESSAGE value="Wort Trainer completed und die Teile der anderen Klassen eingefuegt. Cute meow meow" />
     <MESSAGE value="Auskommentieren von WortTrainer" />
     <MESSAGE value="Auskommentieren von WortListe und KLEINE verfeinerungen am Code zum Verringern des Codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auskommentieren von WortListe und KLEINE verfeinerungen am Code zum Verringern des Codes" />
+    <MESSAGE value="Auskommentieren von WortEintrag und KLEINE verfeinerungen am Code zum Verringern des Codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auskommentieren von WortEintrag und KLEINE verfeinerungen am Code zum Verringern des Codes" />
   </component>
 </project>
