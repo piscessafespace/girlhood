@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e108e87b-7b1a-4b83-a5ab-5fb3c1e286a2" name="Changes" comment="Wort Trainer completed und die Teile der anderen Klassen eingefuegt. Cute meow meow">
+    <list default="true" id="e108e87b-7b1a-4b83-a5ab-5fb3c1e286a2" name="Changes" comment="Auskommentieren von WortTrainer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WortTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WortTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WortListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WortListe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705657279771</updated>
-      <workItem from="1705657281593" duration="7328000" />
+      <workItem from="1705657281593" duration="7653000" />
     </task>
     <task id="LOCAL-00001" summary="Start des Projekts">
       <created>1705657520239</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705694101797</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Auskommentieren von WortTrainer">
+      <created>1705694467825</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705694467825</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +162,7 @@
     <MESSAGE value="Interface Funktionen reingeben (toSting) und sie alle overriden in WortEintrag und WortListe. Die Funktionen fuer GK in Wort Eintrag und SULInterface implementiert" />
     <MESSAGE value="Strategy Pattern Interface" />
     <MESSAGE value="Wort Trainer completed und die Teile der anderen Klassen eingefuegt. Cute meow meow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wort Trainer completed und die Teile der anderen Klassen eingefuegt. Cute meow meow" />
+    <MESSAGE value="Auskommentieren von WortTrainer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auskommentieren von WortTrainer" />
   </component>
 </project>
